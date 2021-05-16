@@ -114,4 +114,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinValue: 1
   taken: 0
-  explosion: {fileID: 0}
+  explosion: {fileID: 501838971023227923, guid: e7c9ed2c731cf4d7291c1a0258b54565, type: 3}

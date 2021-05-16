@@ -4664,7 +4664,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 472f7cd21e51649568ef6dd402c9a538, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4774,7 +4774,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 1
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -10141,7 +10141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dece79405d35e4ae09286592d5980597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelAfterVictory: Level1
+  levelAfterVictory: LevelSelection
   levelAfterGameOver: Level2
   score: 0
   highscore: 0
@@ -15465,8 +15465,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1799098426}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4, z: -25.907846}
-  m_LocalScale: {x: 100, y: 1, z: 1}
+  m_LocalPosition: {x: 27.2, y: -6.57, z: 0}
+  m_LocalScale: {x: 150, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -17052,7 +17052,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 20
+  m_MaxValue: 25
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -19113,6 +19113,10 @@ PrefabInstance:
       propertyPath: rainBar
       value: 
       objectReference: {fileID: 1931443690}
+    - target: {fileID: 374103092, guid: aef794d599b9c42059ec0a490fcad927, type: 3}
+      propertyPath: maxSalve
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 374103092, guid: aef794d599b9c42059ec0a490fcad927, type: 3}
       propertyPath: salveSFX
       value: 

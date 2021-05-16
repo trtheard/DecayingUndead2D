@@ -125,7 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salveValue: 4
   taken: 0
-  explosion: {fileID: 0}
+  explosion: {fileID: 501838971023227923, guid: 2cbf3eb80f922472cb77b54526257dcd, type: 3}
 --- !u!95 &4711224103166516502
 Animator:
   serializedVersion: 3
